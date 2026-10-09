@@ -1,0 +1,34 @@
+# Keep this repository documentation-only; never copy live harness state here.
+.env
+.env.*
+!.env.example
+.omp/
+.pi/
+.claude/
+.codex/
+.agents/
+node_modules/
+
+# Credentials, sessions, logs, caches, and runtime databases.
+auth.json
+credentials.json
+.credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+sessions/
+logs/
+.cache/
+
+# Editor/OS noise.
+*.swp
+*~
+.DS_Store
